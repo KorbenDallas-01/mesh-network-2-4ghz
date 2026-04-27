@@ -1,0 +1,136 @@
+```html
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Model Sieci Cyfrowej 2.4 GHz</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f7fa;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #111827;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      background: white;
+      margin-bottom: 24px;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+    }
+
+    h1, h2 {
+      margin-top: 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+    }
+
+    th, td {
+      border: 1px solid #d1d5db;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background: #f3f4f6;
+    }
+
+    code {
+      background: #eef2ff;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: #6b7280;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Model Sieci Cyfrowej 2.4 GHz</h1>
+    <p>Koncepcyjny model sieci mesh krótkiego zasięgu</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Opis projektu</h2>
+      <p>
+        Projekt przedstawia model cyfrowej sieci łączności bliskiego zasięgu,
+        zoptymalizowanej do pracy w budynkach, tunelach i parkingach podziemnych.
+      </p>
+    </section>
+
+    <section>
+      <h2>Architektura Mesh</h2>
+      <p>
+        Każdy węzeł może pełnić funkcję przekaźnika, umożliwiając transmisję
+        typu multi-hop oraz omijanie przeszkód terenowych i konstrukcyjnych.
+      </p>
+    </section>
+
+    <section>
+      <h2>Specyfikacja techniczna</h2>
+      <table>
+        <tr><th>Parametr</th><th>Wartość</th></tr>
+        <tr><td>Pasmo RF</td><td>2405–2480 MHz ISM</td></tr>
+        <tr><td>Modulacja</td><td>DSSS</td></tr>
+        <tr><td>Szyfrowanie</td><td>AES-128</td></tr>
+        <tr><td>Kodowanie</td><td>CVSD</td></tr>
+        <tr><td>Tryb pracy</td><td>Full-Duplex</td></tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Proof of Concept</h2>
+      <p>
+        Przykładowy test zakłada użycie czterech węzłów:
+        <code>Base Station</code>, dwóch <code>Relay Node</code> oraz jednego
+        <code>End Node</code>.
+      </p>
+
+      <table>
+        <tr><th>Węzeł</th><th>Rola</th><th>Funkcja</th></tr>
+        <tr><td>Node 1</td><td>Base Station</td><td>Punkt startowy komunikacji</td></tr>
+        <tr><td>Node 2</td><td>Relay Node</td><td>Retransmisja</td></tr>
+        <tr><td>Node 3</td><td>Relay Node</td><td>Retransmisja za przeszkodą</td></tr>
+        <tr><td>Node 4</td><td>End Node</td><td>Odbiór / nadawanie</td></tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Disclaimer</h2>
+      <p>
+        Projekt ma charakter edukacyjny i koncepcyjny. Wykorzystanie urządzeń
+        radiowych wymaga zgodności z lokalnymi przepisami prawa.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    Projekt koncepcyjny – sieć mesh 2.4 GHz
+  </footer>
+</body>
+</html>
